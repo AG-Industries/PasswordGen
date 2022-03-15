@@ -17,6 +17,13 @@ const paslen = document.getElementById('paslen');
 const warning = document.getElementById('warningID');
 const localStorage = window.localStorage;
 
+const toggle = document.querySelector('.toggle input')
+
+toggle.addEventListener('click', () => {
+  const change = document.getElementById('body');
+  change.classList.toggle('darkmode')  
+})
+
 let passCount = localStorage.getItem('passCount');
 
 const makeEazyPass = () => {
