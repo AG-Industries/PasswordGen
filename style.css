@@ -1,0 +1,57 @@
+.header {
+  padding:  3%;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+
+.choose {
+  margin: 20px;
+}
+
+.options {
+  display: flex;
+  justify-content: center
+}
+
+.gumbek {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+}
+hr {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: center;
+  margin: 10px 0;
+}
+.password {
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.warning {
+  text-align: center;
+  color: red;
+  font-size: 15px;
+}
+
+.lenght {
+  text-align: center;
+}
+
+.buttons {
+  margin: 0 5%;
+}
