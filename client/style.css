@@ -11,8 +11,8 @@ h1, h2 {
 }
 
 .darkmode {
-  color: white;
-  background-color: black;
+  color: #fff;
+  background-color: #0d1117;
 }
 .choose {
   margin: 20px;
